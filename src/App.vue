@@ -2,19 +2,19 @@
   <div id="app">
       <div class="row justify-content-center">
         <div class="col-8 text-center">
-          <Formulario/>
+         <router-view></router-view>
         </div>
       </div>
   </div>
 </template>
 
 <script>
-import Formulario from './components/Formulario.vue';
+
 
 export default {
   name: 'App',
   components: {
-    Formulario,
+    
     
   }
 }
