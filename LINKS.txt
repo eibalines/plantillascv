@@ -1,0 +1,12 @@
+https://forum.vuejs.org/t/how-to-set-up-a-mailto-href-vue-2-0/2001   //link con mailto: Para poder clicar y enviar un correo a ese email
+
+
+https://morioh.com/p/2bb49af3cb1c  //Boton DESCARGAR PDF la pagina del navegador
+https://github.com/jayanthbabu123/how-to-convert-html-web-pages-to-pdf-in-javascript?ref=morioh.com&utm_source=morioh.com  //Codigo 
+
+
+https://www.goskills.com/Development/Resources/Free-html-resume-templates  //Plantilla del CV
+
+
+
+https://www.digitalocean.com/community/tutorials/how-to-handle-file-uploads-in-vue-2   //Como subir imagen

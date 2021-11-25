@@ -2,6 +2,11 @@
 <template>
 <div id="doc2" class="yui-t7">
 	<button @click="volver()">Volver atrás</button>
+	<br/><h3><button id="pdf" @click="descargar">Download PDF</button></h3>
+	
+	<div class="col-md-12 text-right mb-3">
+        <button class="btn btn-primary" id="download"> download pdf</button>
+    </div>
 	<div id="inner">
 	
 		<div id="hd">
@@ -14,9 +19,9 @@
 
 				<div class="yui-u">
 					<div class="contact-info">
-						<h3><a id="pdf" href="#">Download PDF</a></h3>
-						<h3><a href="mailto:name@yourdomain.com">name@yourdomain.com</a></h3>
-						<h3>(313) - 867-5309</h3>
+						
+						<h3><a :href="'mailto:' + user.email">{{user.email}}</a></h3>
+						<h3>{{user.telefono}}</h3>
 					</div><!--// .contact-info -->
 				</div>
 			</div><!--// .yui-gc -->
@@ -158,7 +163,12 @@ export default {
     methods:{
     volver(){
         this.$emit("volverAtrasPadre");
-    }
+    },
+
+	descargar(){
+
+	}
+
     }
 }
 

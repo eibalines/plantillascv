@@ -2,18 +2,19 @@
   <div id="app">
       <div class="row justify-content-center">
         <div class="col-8 text-center">
-         <router-view></router-view>
+         <Formulario/>
         </div>
       </div>
   </div>
 </template>
 
 <script>
-
+import Formulario from './components/Formulario.vue';
 
 export default {
   name: 'App',
   components: {
+    Formulario
     
     
   }
@@ -27,6 +28,6 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
-  background: turquoise;
+  background: rgb(164, 231, 225);
 }
 </style>
