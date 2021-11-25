@@ -10,3 +10,13 @@ https://www.goskills.com/Development/Resources/Free-html-resume-templates  //Pla
 
 
 https://www.digitalocean.com/community/tutorials/how-to-handle-file-uploads-in-vue-2   //Como subir imagen
+
+
+
+https://www.npmjs.com/package/vue-html2pdf#usage //libreria html2pdf Descargar PDf
+
+jsPdf  https://www.npmjs.com/package/jspdf  //(OTRA OPCION) Libreria Descargar PDF
+
+
+https://github.com/jayanthbabu123/how-to-convert-html-web-pages-to-pdf-in-javascript  // Ejemplo boton descargar
+
